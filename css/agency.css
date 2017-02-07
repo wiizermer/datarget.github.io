@@ -197,8 +197,8 @@ a.active, a:active, a:focus, a:hover {
 }
 
 header {
-    /*background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 72%,rgba(0,0,0,0) 86%,rgba(0,0,0,0) 100%);*/
-    background-image:url(../img/139H2.png);
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 72%,rgba(0,0,0,0) 86%,rgba(0,0,0,0) 100%);
+    /*background-image:url(../img/139H2.png);*/
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
