@@ -56,6 +56,15 @@ a.active, a:active, a:focus, a:hover {
     margin: 0 auto
 }
 
+.img-boss {
+    height:250px;
+}
+
+.img-staff {
+    width:200px;
+    height:200px;
+}
+
 .bg-light-gray {
     background-color: #F2F2F2
 }
@@ -687,6 +696,18 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin: 0;
     height: 100%;
     width: auto
+}
+
+.modal-list {
+    width: 70%;
+}
+
+.modal-des {
+    text-align: left;
+}
+
+.bigger {
+    font-size: 1.3em
 }
 
 .portfolio-modal .modal-content {
