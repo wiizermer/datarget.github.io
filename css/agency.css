@@ -10,7 +10,8 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    webkit-tap-highlight-color: #CB9F2C
+    webkit-tap-highlight-color: #CB9F2C;
+    overflow-x:hidden;
 }
 
 .btn-primary, .btn-xl, h1, h2, h3, h4, h5, h6 {
@@ -178,6 +179,24 @@ a.active, a:active, a:focus, a:hover {
     background: -webkit-linear-gradient(left, rgba(255,175,75,0.31) 0%,rgba(255,146,10,0.8) 100%); 
 }
 
+@media (min-width : 320px) (max-width : 480px) {
+    #cloud {
+        padding-left: 0%;
+    }
+    
+}
+
+
+
+
+
+@media (min-width:768px) {
+    #cloud {
+        padding-left: 10%;
+    }
+    
+
+}
 
 @media (min-width:768px) {
     .navbar-custom {
