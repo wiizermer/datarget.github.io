@@ -178,6 +178,7 @@ a.active, a:active, a:focus, a:hover {
     background: -webkit-linear-gradient(left, rgba(255,175,75,0.31) 0%,rgba(255,146,10,0.8) 100%); 
 }
 
+
 @media (min-width:768px) {
     .navbar-custom {
         background-color: transparent;
