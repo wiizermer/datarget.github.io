@@ -58,12 +58,11 @@ a.active, a:active, a:focus, a:hover {
 }
 
 .img-boss {
-    height:250px;
+    height:400px;
 }
 
 .img-staff {
-    width:200px;
-    height:200px;
+    height:400px;
 }
 
 .bg-light-gray {
@@ -584,7 +583,7 @@ footer span.copyright, footer ul.quicklinks {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff
+    /*border: 7px solid #fff*/
 }
 
 .team-member h4 {
