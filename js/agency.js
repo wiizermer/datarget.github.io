@@ -61,8 +61,23 @@ $(window).load(function(){
     img.removeAttribute('data-src');
   };
 });
+$("img .lazy").lazyload({
+        effect : "fadeIn",
+        threshold: 200,
+    });
 
 })
+
+
+
+$(function() {
+    
+});
+
+
+
+
+
 
 var map;
 function initMap() {
