@@ -51,9 +51,9 @@
 });*/
 
 $(document).ready(function(){
-/*!$(window).load(function(){
+$(window).load(function(){
     $('#preloader').fadeOut('slow',function(){$(this).remove();});
-});*/
+});
 
 /*[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
   img.setAttribute('src', img.getAttribute('data-src'));
@@ -66,7 +66,7 @@ $('.lazy').lazyload({
         
     });
 
-})
+});
 
 
 
