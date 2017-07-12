@@ -54,6 +54,7 @@ $(document).ready(function(){
 $(window).load(function(){
     $('#preloader').fadeOut('slow',function(){$(this).remove();});
 });
+
 [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
   img.setAttribute('src', img.getAttribute('data-src'));
   img.onload = function() {
@@ -62,6 +63,7 @@ $(window).load(function(){
 });
 
 })
+
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
