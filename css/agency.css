@@ -1317,6 +1317,7 @@ figure.photostack-current::after {
 #preloader h1 {
     vertical-align: middle;
     text-align: center;
-    margin: 200px auto;
+    margin: auto;
     color: #337ab7;
+    padding-top: 40%;
 }
