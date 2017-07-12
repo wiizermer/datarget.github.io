@@ -51,12 +51,16 @@
 });*/
 
 $(document).ready(function(){
+$(window).load(function(){
+    $('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
 [].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
   img.setAttribute('src', img.getAttribute('data-src'));
   img.onload = function() {
     img.removeAttribute('data-src');
   };
 });
+
 })
 var map;
 function initMap() {
