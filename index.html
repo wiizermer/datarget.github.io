@@ -27,6 +27,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+    <!--link rel="stylesheet" type="text/css" href="css/normalize.css" /-->
+    <!--link rel="stylesheet" type="text/css" href="css/demo.css" /-->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/modernizr.min.js"></script>
 </head>
 
 <body id="page-top" class="index">
@@ -162,9 +167,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="inline-img">
+                <!--div class="inline-img">
                     <img class="img-responsive" src="img/1212.png" alt="cloud" style="">
-                </div>
+                </div-->
     </section>
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -183,7 +188,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/micro_3.png" class="img-responsive-por" alt="">
+                        <img src="img/micro_3.png" class="img-responsive-por portfolio-img" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Public Transit 4Đ Microscope</h4>
@@ -198,7 +203,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/tpod_4.png" class="img-responsive-por" alt="">
+                        <img src="img/tpod_4.png" class="img-responsive-por portfolio-img" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Public Transit Trip Đistribution</h4>
@@ -212,7 +217,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/acc_2.png" class="img-responsive-por" alt="">
+                        <img src="img/acc_2.png" class="img-responsive-por portfolio-img" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Traffic Accident GIS</h4>
@@ -226,7 +231,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/tpdb_1.png" class="img-responsive-por" alt="">
+                        <img src="img/tpdb_1.png" class="img-responsive-por portfolio-img" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Heterogeneity x Traffic Đata Mining</h4>
@@ -240,7 +245,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/tybd_2.png" class="img-responsive-por" alt="">
+                        <img src="img/tybd_2.png" class="img-responsive-por portfolio-img" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Traffic Đata Mining</h4>
@@ -254,7 +259,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/ptx2.png" class="img-responsive-por" alt="">
+                        <img src="img/ptx2.png" class="img-responsive-por portfolio-img" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>PTX Đata Model Đesign</h4>
@@ -270,94 +275,290 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Coming soon!</h3>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    
+                    <div class="carousel slide carousel-fade" id="fade-quote-carousel" data-ride="carousel">
+                      <!-- Carousel indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                        <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                        <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                      </ol>
+                      <!-- Carousel items -->
+                      <div class="carousel-inner">
+                        <div class="active item">
+                            <div class="row">
+                                <h1 class="car1"> 2014 </h1>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <div class="text-center">
+                                        <p class="circle-name">Team Size</p>
+                                    </div>
+                                    <div class="text-center aboutCir circle-a">
+                                        <h1>3</h1>
+                                        <p>ppl</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Projects Done</p>
+                                    <div class="text-center aboutCir circle-b">
+                                        <h1>7</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Cities Served</p>
+                                    <div class="text-center aboutCir circle-c">
+                                        <h1>4</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Darts on Bullseye</p>
+                                    <div class="text-center aboutCir circle-d">
+                                        <h1 class="darts">0</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <h1 class="car2"> 2015 </h1>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <div class="text-center">
+                                        <p class="circle-name">Team Size</p>
+                                    </div>
+                                    <div class="text-center aboutCir circle-a">
+                                        <h1>4</h1>
+                                        <p>ppl</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Projects Done</p>
+                                    <div class="text-center aboutCir circle-b">
+                                        <h1>19</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Cities Served</p>
+                                    <div class="text-center aboutCir circle-c">
+                                        <h1>6</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Darts on Bullseye</p>
+                                    <div class="text-center aboutCir circle-d">
+                                        <h1 class="darts">6000+</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <h1 class="car3"> 2016 </h1>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <div class="text-center">
+                                        <p class="circle-name">Team Size</p>
+                                    </div>
+                                    <div class="text-center aboutCir circle-a">
+                                        <h1>6</h1>
+                                        <p>ppl</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Projects Done</p>
+                                    <div class="text-center aboutCir circle-b">
+                                        <h1>19</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Cities Served</p>
+                                    <div class="text-center aboutCir circle-c">
+                                        <h1>6</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Darts on Bullseye</p>
+                                    <div class="text-center aboutCir circle-d">
+                                        <h1 class="darts">6000+</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="row ">
+                                <h1 class="car4"> 2017 </h1>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <div class="text-center">
+                                        <p class="circle-name">Team Size</p>
+                                    </div>
+                                    <div class="text-center aboutCir circle-a">
+                                        <h1>8</h1>
+                                        <p>ppl</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Projects Done</p>
+                                    <div class="text-center aboutCir circle-b">
+                                        <h1>22</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Cities Served</p>
+                                    <div class="text-center aboutCir circle-c">
+                                        <h1>7</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                                    <p class="circle-name">Darts on Bullseye</p>
+                                    <div class="text-center aboutCir circle-d">
+                                        <h1 class="darts">8000+</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--div class="item">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                            </blockquote>
+                            <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+                        </div-->
+
+                      </div>
+                    </div>
+                </div>  
+            </div>
+            <div id="photoGa">
+                <div class="col-lg-12 col-sm-12">
+                    <ul id="elasticstack" class="elasticstack">
+                            <li><img class="img-responsive" src="img/team/office.jpg" alt="01"/><h5>The Datarget SquaD </h5><h6>2017@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/o1.jpg" alt="01"/><h5>Where everything started </h5><h6>2014@水源HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/o2.jpg" alt="02"/><h5>Office corner </h5><h6>2015@六張犁HQ</h6></li>
+                            <!--li><img class="img-responsive" src="img/img_test/o3.jpg" alt="03"/><h5>Office Scene @HQ</h5></li-->
+                            <li><img class="img-responsive" src="img/img_test/w1.jpg" alt="04"/><h5>Microsoft OpenData Competetion </h5><h6>2016@Microsoft Taiwan</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/w2.jpg" alt="05"/><h5>MOTC OpenAPI Competetion </h5><h6>2016@MOTC</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/w3.jpg" alt="07"/><h5>Big Data Workshop </h5><h6>2016@iii資策會</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/w4.jpg" alt="08"/><h5>ITS World Congress </h5><h6>2016@Melbourne</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f1.jpg" alt="09"/><h5>Shooting Darts </h5><h6>2016 @台北東門</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f2.jpg" alt="10"/><h5>Gym time after work </h5><h6>2017@六張犁GYM</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f3.jpg" alt="11"/><h5>OpenData Workshop </h5><h6>2017@高雄</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f4.jpg" alt="12"/><h5>Semantic Analysis Seminar </h5><h6>2017@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f5.jpg" alt="01"/><h5>Semantic Analysis Seminar </h5><h6>2017@六張犁HQ</h6>/li>
+                            <li><img class="img-responsive" src="img/img_test/f6.jpg" alt="02"/><h5>Last day before New Years Eve </h5><h6>2016@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f7.jpg" alt="03"/><h5>Preparing the Zhongyuan Festival </h5><h6>2016@六張犁HQ RoofTop</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f8.jpg" alt="04"/><h5>Beer & Darts & Fun </h5><h6>2016@台北Da Bar</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f9.jpg" alt="05"/><h5>Last day before New Years Eve </h5><h6>2015@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/f10.jpg" alt="07"/><h5>Testing new office equipment </h5><h6>2016@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/l1.jpg" alt="08"/><h5>Installing new office equipment </h5><h6>2016@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/l2.jpg" alt="09"/><h5>Christmas in Office </h5><h6>2016@六張犁HQ</h6></li>
+                            <li><img class="img-responsive" src="img/img_test/l3.jpg" alt="10"/><h5>Pizza Time! </h5><h6>2017@六張犁HQ</h6></li>
+                            
+                    </ul>
                 </div>
             </div>
-            <!--div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2012</h4>
-                                    <h4 class="subheading"></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Coming soon...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2013</h4>
-                                    <h4 class="subheading"></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Coming soon...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2014</h4>
-                                    <h4 class="subheading"></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Coming soon...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2015</h4>
-                                    <h4 class="subheading"></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Coming soon...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2016</h4>
-                                    <h4 class="subheading"></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Coming soon...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>
-                                    <br>
-                                    <br></h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div-->
         </div>
-        </div>
+        
     </section>
+    <!--section id="photostack-1" class="photostack photostack-start">
+                <div>
+                    <figure>
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/1.jpg" alt="img01"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Serenity Beach</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/2.jpg" alt="img02"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Happy Days</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/3.jpg" alt="img03"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Beautywood</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/4.jpg" alt="img04"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Heaven of time</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/5.jpg" alt="img05"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Speed Racer</h2>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/6.jpg" alt="img06"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Forever this</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#photostack-1" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/7.jpg" alt="img07"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Lovely Green</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/8.jpg" alt="img08"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Wonderful</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/9.jpg" alt="img09"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Love Addict</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/10.jpg" alt="img10"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Friendship</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/11.jpg" alt="img11"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">White Nights</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/12.jpg" alt="img12"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Serendipity</h2>
+                        </figcaption>
+                    </figure>
+                    <figure data-dummy>
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/13.jpg" alt="img13"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Pure Soul</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img" src="img/img_test/14.jpg" alt="img14"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Winds of Peace</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive" src="img/img_test/15.jpg" alt="img15"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Shades of blue</h2>
+                        </figcaption>
+                    </figure>
+                    <figure >
+                        <a href="#" class="photostack-img"><img class="img-responsive gallery-img " src="img/img_test/16.jpg" alt="img16"/></a>
+                        <figcaption>
+                            <h2 class="photostack-title">Lightness</h2>
+                        </figcaption>
+                    </figure>
+                </div>
+    </section-->
     <!-- squad Section -->
     <section id="squad" class="bg-light-gray">
         <div class="container">
@@ -368,124 +569,119 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="team-member">
                         <img src="img/team/chue4.jpg" class="img-responsive img-boss" alt="">
                         <h4>Charles Chueh</h4>
                         <p class="text-muted">CEO
                             <br> Bench Press: 265 lbs</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href=""><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/charles.chueh.1?fref=ts"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href=""><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/in/charleschueh/"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="team-member">
                         <img src="img/team/ru1.jpg" class="img-responsive img-boss" alt="">
                         <h4>Yi Ru Lee</h4>
                         <p class="text-muted">CTO
                             <br> Vertical Height: 6 ft 3</p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul!-->
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4 col-sm-12">
                     <div class="team-member">
                         <img src="img/team/ad3.jpg" class="img-responsive im img-boss" alt="">
                         <h4>Zhi Yu Yang</h4>
                         <p class="text-muted">CMO
                             <br> Equipment Level: MacBook Pro Touch Bar </p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team-member">
                         <img src="img/team/ber2.jpg" class="img-responsive-squ-2  img-staff" alt="">
                         <h4>Ya Yun Shiue</h4>
                         <p class="text-muted">Manager
                             <br> K-Pop Addicted</p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team-member">
                         <img src="img/team/lun3.jpg" class="img-responsive-squ-2  img-staff" alt="">
                         <h4>Wan Lun Ruan</h4>
                         <p class="text-muted">Full Stack Developer
                             <br> Coding Level: Legendary</p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team-member">
                         <img src="img/team/j2.jpg" class="img-responsive-squ-2  img-staff" alt="">
                         <h4>Jimmy Tang</h4>
                         <p class="text-muted">Analyst
                             <br> Serious K-Pop Addicted</p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team-member">
                         <img src="img/team/yuan1.jpg" class="img-responsive-squ-2  img-staff" alt="">
                         <h4>Chris Chien</h4>
                         <p class="text-muted">Analyst
                             <br> Soccer Level: God Like </p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-md-3 col-sm-6">
                     <div class="team-member">
                         <img src="img/team/wan2.jpg" class="img-responsive-squ-2  img-staff" alt="">
                         <h4>Wan Hsing Hsieh</h4>
-                        <p class="text-muted">Newbie
+                        <p class="text-muted">Analyst
                             <br> Military Level: Special Force </p>
-                        <ul class="list-inline social-buttons">
+                        <!--ul class="list-inline social-buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul-->
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-lg-offset-2 text-center">
-                    <p class="large text-muted" style="text-align: center">###</p>
                 </div>
             </div>
         </div>
@@ -511,7 +707,55 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="">
+                        <img src="img/tclogo.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/yllogo.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
                         <img src="img/motc.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/exlogo.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/chlogo.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/kwlogo.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/felogo.png" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/cecilogo.jpg" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/itstlogo.jpg" class="img-responsive-cli img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="">
+                        <img src="img/aptrc.jpeg" class="img-responsive-cli img-centered" alt="">
                     </a>
                 </div>
             </div>
@@ -570,9 +814,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href=""><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href=""><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.facebook.com/Innovation4Data/"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -853,7 +1095,7 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
     <!-- Google map API JavaScript -->
     <script type="text/javascript">
     function initMap() {
@@ -875,6 +1117,11 @@
     }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfEUlYZZ051t4XJbjSb4OqlfJ1H7BCkvs&callback=initMap" async defer>
+    </script>
+    <script src="js/draggabilly.pkgd.min.js"></script>
+    <script src="js/elastiStack.js"></script>
+    <script>
+            new ElastiStack( document.getElementById( 'elasticstack' ) );
     </script>
 </body>
 

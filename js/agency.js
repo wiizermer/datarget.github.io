@@ -32,6 +32,27 @@
 
 })(jQuery); // End of use strict
 
+$(function () {
+    var header = $('header');
+    var backgrounds = [
+      'url(../datarget.github.io/img/team/office.jpg)', 
+      'url(../datarget.github.io/img/team/office2.jpg)',
+      'url(../datarget.github.io/img/team/office3.jpg)'];
+    var current = 0;
+
+    function nextBackground() {
+        header.css(
+            'background-image',
+        backgrounds[current = ++current % backgrounds.length]);
+
+        setTimeout(nextBackground, 6000);
+    }
+    setTimeout(nextBackground, 6000);
+    header.css('background-image', backgrounds[0]);
+});
+
+
+
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
