@@ -51,7 +51,7 @@
 });*/
 
 $(document).ready(function(){
-$(window).load(function(){
+$(window).ready(function(){
     $('#preloader').fadeOut('slow',function(){$(this).remove();});
 });
 
