@@ -77,6 +77,13 @@ $('#squad .lazy').lazyload({
         threshold: 200,
         
     });
+$('.clients .lazy').lazyload({
+        
+        effect : "fadeIn",
+        threshold: 200,
+        
+    });
+
 
 });
 
