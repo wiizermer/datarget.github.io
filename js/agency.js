@@ -55,12 +55,24 @@ $(window).load(function(){
     $('#preloader').fadeOut('slow',function(){$(this).remove();});
 });
 
-/*[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
   img.setAttribute('src', img.getAttribute('data-src'));
   img.onload = function() {
     img.removeAttribute('data-src');
-  };*/
-$('.lazy').lazyload({
+  };});
+$('#portfolio .lazy').lazyload({
+        effect : "fadeIn",
+        threshold: 200, 
+    });
+
+$('#about .lazy').lazyload({
+        effect : "fadeIn",
+        threshold: 200, 
+    });
+
+
+$('#squad .lazy').lazyload({
+        
         effect : "fadeIn",
         threshold: 200,
         
