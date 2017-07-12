@@ -31,8 +31,7 @@
     })
 
 })(jQuery); // End of use strict
-
-$(function () {
+/*$(function () {
     var header = $('header');
     var backgrounds = [
       'url(../datarget.github.io/img/team/office.jpg)', 
@@ -49,7 +48,7 @@ $(function () {
     }
     setTimeout(nextBackground, 6000);
     header.css('background-image', backgrounds[0]);
-});
+});*/
 
 
 
