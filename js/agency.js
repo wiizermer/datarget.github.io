@@ -50,8 +50,14 @@
     header.css('background-image', backgrounds[0]);
 });*/
 
-
-
+$(document).ready(function(){
+[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+  img.setAttribute('src', img.getAttribute('data-src'));
+  img.onload = function() {
+    img.removeAttribute('data-src');
+  };
+});
+})
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
